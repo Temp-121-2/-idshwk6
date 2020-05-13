@@ -1,0 +1,229 @@
+date and time:Wed May 13 08:30:45 CST 2020
+
+os:Linux Mint 19.2
+
+Kernel: Linux mint-virtual-machine 4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+cpuinfo:Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+
+meminfo:MemTotal:        4519436 kB
+		MemFree:         2465196 kB
+		MemAvailable:    3175320 kB
+		Buffers:           96520 kB
+		Cached:           790144 kB
+		SwapCached:            0 kB
+		
+diskinfo:Disk /dev/sda: 40 GiB, 42949672960 bytes, 83886080 sectors
+		Units: sectors of 1 * 512 = 512 bytes
+		Sector size (logical/physical): 512 bytes / 512 bytes
+		I/O size (minimum/optimal): 512 bytes / 512 bytes
+		Disklabel type: dos
+		Disk identifier: 0x38aec81c
+		
+uptime: 08:43:46 up 55 min,  1 user,  load average: 0.00, 0.06, 0.07
+
+serviceinfo:[ + ]  acpid
+		[ - ]  alsa-utils
+		[ - ]  anacron
+		[ + ]  apache-htcacheclean
+		[ + ]  apache2
+		[ + ]  apparmor
+		[ + ]  avahi-daemon
+		[ + ]  bluetooth
+		[ - ]  console-setup.sh
+		[ + ]  cron
+		[ - ]  cryptdisks
+		[ - ]  cryptdisks-early
+		[ + ]  cups
+		[ + ]  cups-browsed
+		[ + ]  dbus
+		[ - ]  dns-clean
+		[ + ]  docker
+		[ + ]  grub-common
+		[ + ]  hddtemp
+		[ - ]  hwclock.sh
+		[ - ]  irqbalance
+		[ + ]  kerneloops
+		[ - ]  keyboard-setup.sh
+		[ + ]  kmod
+		[ + ]  lightdm
+		[ + ]  lm-sensors
+		[ - ]  lvm2
+		[ + ]  lvm2-lvmetad
+		[ + ]  lvm2-lvmpolld
+		[ - ]  mintsystem
+		[ + ]  mysql
+		[ + ]  network-manager
+		[ + ]  networking
+		[ + ]  openvpn
+		[ - ]  plymouth
+		[ - ]  plymouth-log
+		[ - ]  pppd-dns
+		[ + ]  procps
+		[ - ]  rsync
+		[ + ]  rsyslog
+		[ - ]  saned
+		[ + ]  speech-dispatcher
+		[ + ]  udev
+		[ + ]  ufw
+		[ - ]  uuidd
+		[ + ]  vmware-tools
+		[ + ]  vsftpd
+		[ - ]  x11-common
+		[ + ]  xinetd
+		
+nicinfo:
+		docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+				inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+				ether 02:42:bc:9f:1c:8d  txqueuelen 0  (Ethernet)
+				RX packets 0  bytes 0 (0.0 B)
+				RX errors 0  dropped 0  overruns 0  frame 0
+				TX packets 0  bytes 0 (0.0 B)
+				TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+		ens33: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+				ether 00:0c:29:09:48:4c  txqueuelen 1000  (Ethernet)
+				RX packets 160  bytes 42698 (42.6 KB)
+				RX errors 0  dropped 0  overruns 0  frame 0
+				TX packets 225  bytes 26368 (26.3 KB)
+				TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+		lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+				inet 127.0.0.1  netmask 255.0.0.0
+				inet6 ::1  prefixlen 128  scopeid 0x10<host>
+				loop  txqueuelen 1000  (Local Loopback)
+				RX packets 2179  bytes 156813 (156.8 KB)
+				RX errors 0  dropped 0  overruns 0  frame 0
+				TX packets 2179  bytes 156813 (156.8 KB)
+				TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+routeinfo:
+		Kernel IP routing table
+		Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+		169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 docker0
+		172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+		
+arpinfo:(10.0.2.2) at 52:54:00:12:35:02 [ether] on eth0
+		(192.168.1.6) at ff:ee:ee:ee:ee:ee [ether] PERM on eth0
+		
+processesinfo:
+		USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+		root          1  0.1  0.2 168088  9280 ?        -    07:48   0:05 /sbin/init splash HOME=/ init=/sbin/init NETWORK_SKIP_ENSLAVED= recovery= TERM=linux drop_caps= BOOT_IMAGE=/boot/vmlinuz-4.15.0-54-generic PATH=/sbin:/usr/sbin:/bin:/usr/bin PWD=/ rootmnt=/root
+		root          -  0.1    -      -     - -        Ss   07:48   0:05 -
+		root          2  0.0  0.0      0     0 ?        -    07:48   0:00 [kthreadd]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root          4  0.0  0.0      0     0 ?        -    07:48   0:00 [kworker/0:0H]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root          6  0.0  0.0      0     0 ?        -    07:48   0:00 [mm_percpu_wq]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root          7  0.0  0.0      0     0 ?        -    07:48   0:00 [ksoftirqd/0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root          8  0.0  0.0      0     0 ?        -    07:48   0:00 [rcu_sched]
+		root          -  0.0    -      -     - -        I    07:48   0:00 -
+		root          9  0.0  0.0      0     0 ?        -    07:48   0:00 [rcu_bh]
+		root          -  0.0    -      -     - -        I    07:48   0:00 -
+		root         10  0.0  0.0      0     0 ?        -    07:48   0:00 [migration/0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         11  0.0  0.0      0     0 ?        -    07:48   0:00 [watchdog/0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         12  0.0  0.0      0     0 ?        -    07:48   0:00 [cpuhp/0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         13  0.0  0.0      0     0 ?        -    07:48   0:00 [kdevtmpfs]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         14  0.0  0.0      0     0 ?        -    07:48   0:00 [netns]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         15  0.0  0.0      0     0 ?        -    07:48   0:00 [rcu_tasks_kthre]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         16  0.0  0.0      0     0 ?        -    07:48   0:00 [kauditd]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         17  0.0  0.0      0     0 ?        -    07:48   0:00 [khungtaskd]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         18  0.0  0.0      0     0 ?        -    07:48   0:00 [oom_reaper]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         19  0.0  0.0      0     0 ?        -    07:48   0:00 [writeback]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         20  0.0  0.0      0     0 ?        -    07:48   0:00 [kcompactd0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         21  0.0  0.0      0     0 ?        -    07:48   0:00 [ksmd]
+		root          -  0.0    -      -     - -        SN   07:48   0:00 -
+		root         22  0.0  0.0      0     0 ?        -    07:48   0:00 [khugepaged]
+		root          -  0.0    -      -     - -        SN   07:48   0:00 -
+		root         23  0.0  0.0      0     0 ?        -    07:48   0:00 [crypto]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         24  0.0  0.0      0     0 ?        -    07:48   0:00 [kintegrityd]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         25  0.0  0.0      0     0 ?        -    07:48   0:00 [kblockd]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         26  0.0  0.0      0     0 ?        -    07:48   0:00 [ata_sff]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         27  0.0  0.0      0     0 ?        -    07:48   0:00 [md]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         28  0.0  0.0      0     0 ?        -    07:48   0:00 [edac-poller]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         29  0.0  0.0      0     0 ?        -    07:48   0:00 [devfreq_wq]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         30  0.0  0.0      0     0 ?        -    07:48   0:00 [watchdogd]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         34  0.0  0.0      0     0 ?        -    07:48   0:00 [kswapd0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         36  0.0  0.0      0     0 ?        -    07:48   0:00 [ecryptfs-kthrea]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         78  0.0  0.0      0     0 ?        -    07:48   0:00 [kthrotld]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         79  0.0  0.0      0     0 ?        -    07:48   0:00 [acpi_thermal_pm]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         80  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_0]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         81  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_0]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         82  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_1]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root         83  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_1]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         89  0.0  0.0      0     0 ?        -    07:48   0:00 [ipv6_addrconf]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root         90  0.0  0.0      0     0 ?        -    07:48   0:01 [kworker/0:2]
+		root          -  0.0    -      -     - -        I    07:48   0:01 -
+		root         99  0.0  0.0      0     0 ?        -    07:48   0:00 [kstrp]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        116  0.0  0.0      0     0 ?        -    07:48   0:00 [charger_manager]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        171  0.0  0.0      0     0 ?        -    07:48   0:00 [mpt_poll_0]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        172  0.0  0.0      0     0 ?        -    07:48   0:00 [mpt/0]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        173  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_2]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        174  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_2]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        175  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_3]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        176  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_3]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        177  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_4]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        178  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_4]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        179  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_5]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        180  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_5]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        181  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_6]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        182  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_6]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        183  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_7]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        184  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_7]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        185  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_8]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        186  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_8]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        187  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_9]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        188  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_9]
+		root          -  0.0    -      -     - -        I<   07:48   0:00 -
+		root        189  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_eh_10]
+		root          -  0.0    -      -     - -        S    07:48   0:00 -
+		root        190  0.0  0.0      0     0 ?        -    07:48   0:00 [scsi_tmf_10]
